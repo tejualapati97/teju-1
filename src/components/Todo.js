@@ -19,7 +19,7 @@ const Todo = () => {
       <>
         {list.length > 0
           ? list.map((teju, index) => {
-              return <li key={index} style={{color:"red"}}>{teju}</li>;
+              return <li key={index} style={{color:"blue"}}>{teju}</li>;
             })
           : <p>no data available</p>}
       </>
